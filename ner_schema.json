@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "experiencia": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "empresa": {"type": "string"},
+                    "puesto": {"type": "string"},
+                    "periodo": {
+                        "type": "string",
+                        "description": "Formato 'YYYYMM-YYYYMM' o simplemente 'YYYYMM' si no aparece fecha de fin."
+                    }
+                },
+                "required": ["empresa", "puesto", "periodo"]
+            }
+        }
+    },
+    "required": ["experiencia"]
+}
