@@ -1,0 +1,1 @@
+El título de la oferta de trabajo es: {job}.La experiencia requerida en meses es: {req_experience}.La puntuacion es {puntuacion}, La experiencia relevante es: {exp}. Explica por qué se ha obtenido la puntuación
