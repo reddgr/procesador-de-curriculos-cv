@@ -1,4 +1,4 @@
-# Procesador de Currículos (CV)
+# Procesador y Analizador de Candidatos según CV
 
 Prueba de concepto para un sistema de análisis de texto de ficheros curriculum vitae.
 
