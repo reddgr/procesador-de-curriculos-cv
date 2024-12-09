@@ -142,7 +142,7 @@ with gr.Blocks(css=css) as interface:
     gr.Markdown("""
         <footer>
         <p>Puedes consultar el código completo de esta app y los notebooks explicativos en 
-        <a href='https://github.com/reddgr' target='_blank'>GitHub</a></p>
+        <a href='https://github.com/reddgr/procesador-de-curriculos-cv' target='_blank'>GitHub</a></p>
         <p>© 2024 <a href='https://talkingtochatbots.com' target='_blank'>talkingtochatbots.com</a></p>
         </footer>
     """)
