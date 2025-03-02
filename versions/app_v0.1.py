@@ -18,16 +18,12 @@ unmasked_chars = 8
 masked_key = api_key[:unmasked_chars] + '*' * (len(api_key) - unmasked_chars*2) + api_key[-unmasked_chars:]
 print(f"API key: {masked_key}")
 
-def process_cv(job_text, cv_text, req_experience, req_experience_unit, positions_cap, dist_threshold_low, dist_threshold_high):
+def process_cv(job_text, cv_text, req_experience, positions_cap, dist_threshold_low, dist_threshold_high):
     if dist_threshold_low >= dist_threshold_high:
         return {"error": "dist_threshold_low debe ser más bajo que dist_threshold_high."}
     
     if not isinstance(cv_text, str) or not cv_text.strip():
         return {"error": "Por favor, introduce el CV o sube un fichero."}
-    
-    # Convertir la experiencia requerida a meses si se introduce en años
-    if req_experience_unit == "años":
-        req_experience = req_experience * 12
 
     try:
         procesador = ProcesadorCV(api_key, cv_text, job_text, ner_pre_prompt, 
@@ -64,7 +60,7 @@ with open('json/response_schema.json', 'r', encoding='utf-8') as f:
 with open('cv_examples/reddgr_cv.txt', 'r', encoding='utf-8') as file:
     cv_example = file.read()
 
-default_parameters = [4, "años", 10, 0.5, 0.7] # Parámetros por defecto para el reinicio de la interfaz y los ejemplos predefinidos 
+default_parameters = [48, 10, 0.5, 0.7] # Parámetros por defecto para el reinicio de la interfaz y los ejemplos predefinidos 
 
 # Código CSS para truncar el texto de ejemplo en la interfaz (bloque "Examples" en la parte de abajo):
 css = """
@@ -85,22 +81,19 @@ css = """
 with gr.Blocks(css=css) as interface:
     # Inputs
     job_text_input = gr.Textbox(label="Título oferta de trabajo", lines=1, placeholder="Introduce el título de la oferta de trabajo")
-    gr.Markdown("Experiencia requerida")
-    with gr.Row():
-        req_experience_input = gr.Number(label="Exp. requerida", value=default_parameters[0], precision=0, elem_id="req_exp", show_label=False)
-        req_experience_unit = gr.Dropdown(label="Período", choices=["meses", "años"], value=default_parameters[1], elem_id="req_exp_unit", show_label=False)
     cv_text_input = gr.Textbox(label="CV en formato texto", lines=5, max_lines=5, placeholder="Introduce el texto del CV")
     
     # Opciones avanzadas ocultas en un objeto "Accordion"
     with gr.Accordion("Opciones avanzadas", open=False):
-        positions_cap_input = gr.Number(label="Número máximo de puestos a extraer", value=default_parameters[2], precision=0)
+        req_experience_input = gr.Number(label="Experiencia requerida (en meses)", value=default_parameters[0], precision=0)
+        positions_cap_input = gr.Number(label="Número máximo de puestos a extraer", value=default_parameters[1], precision=0)
         dist_threshold_low_slider = gr.Slider(
             label="Umbral mínimo de distancia de embeddings (puesto equivalente)", 
-            minimum=0, maximum=1, value=default_parameters[3], step=0.05
+            minimum=0, maximum=1, value=default_parameters[2], step=0.05
         )
         dist_threshold_high_slider = gr.Slider(
             label="Umbral máximo de distancia de embeddings (puesto irrelevante)", 
-            minimum=0, maximum=1, value=default_parameters[4], step=0.05
+            minimum=0, maximum=1, value=default_parameters[3], step=0.05
         )
     
     submit_button = gr.Button("Procesar")
@@ -114,7 +107,7 @@ with gr.Blocks(css=css) as interface:
             ["Cajero de supermercado", "Trabajo de charcutero desde 2021. Antes trabajé 2 meses de camarero en un bar de tapas."] + default_parameters,
             ["Generative AI Engineer", cv_example] + default_parameters
         ],
-        inputs=[job_text_input, cv_text_input, req_experience_input, req_experience_unit, positions_cap_input, dist_threshold_low_slider, dist_threshold_high_slider]
+        inputs=[job_text_input, cv_text_input, req_experience_input, positions_cap_input, dist_threshold_low_slider, dist_threshold_high_slider]
     )
 
     # Botón "Procesar"
@@ -124,7 +117,6 @@ with gr.Blocks(css=css) as interface:
             job_text_input, 
             cv_text_input, 
             req_experience_input, 
-            req_experience_unit,
             positions_cap_input, 
             dist_threshold_low_slider, 
             dist_threshold_high_slider
@@ -140,7 +132,6 @@ with gr.Blocks(css=css) as interface:
             job_text_input, 
             cv_text_input, 
             req_experience_input, 
-            req_experience_unit,
             positions_cap_input, 
             dist_threshold_low_slider, 
             dist_threshold_high_slider
