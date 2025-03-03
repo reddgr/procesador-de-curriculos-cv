@@ -15,4 +15,6 @@ Contienen el proceso de desarrollo de la app paso a paso:
 
 app.py
 
-La aplicación Gradio está en funcionamiento y se puede acceder en el siguiente enlace: [Aplicación Gradio](https://huggingface.co/spaces/reddgr/procesador-de-cvs-gradio-app).
+### English Version
+
+English language user interface and prompts are available in the `en/` directory.

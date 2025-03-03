@@ -1,21 +1,21 @@
 {
     "type": "object",
     "properties": {
-        "experiencia": {
+        "experience": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
-                    "empresa": {"type": "string"},
-                    "puesto": {"type": "string"},
-                    "periodo": {
+                    "company": {"type": "string"},
+                    "role": {"type": "string"},
+                    "period": {
                         "type": "string",
                         "description": "'YYYYMM-YYYYMM' format or simply 'YYYYMM' if no end date is given."
                     }
                 },
-                "required": ["empresa", "puesto", "periodo"]
+                "required": ["company", "role", "period"]
             }
         }
     },
-    "required": ["experiencia"]
+    "required": ["experience"]
 }

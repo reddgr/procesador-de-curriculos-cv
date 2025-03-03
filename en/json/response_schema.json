@@ -1,38 +1,38 @@
 {
     "type": "object",
     "properties": {
-        "puntuacion": {
+        "score": {
             "type": "number"
         },
-        "experiencia": {
+        "relevant experience": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
-                    "empresa": {
+                    "company": {
                         "type": "string"
                     },
-                    "puesto": {
+                    "role": {
                         "type": "string"
                     },
-                    "duracion": {
+                    "duration": {
                         "type": "integer"
                     }
                 },
                 "required": [
-                    "empresa",
-                    "puesto",
-                    "duracion"
+                    "company",
+                    "role",
+                    "duration"
                 ]
             }
         },
-        "descripcion de la experiencia": {
+        "experience summary": {
             "type": "string"
         }
     },
     "required": [
-        "puntuacion",
-        "experiencia relevante",
-        "descripcion de la experiencia"
+        "score",
+        "relevant experience",
+        "experience summary"
     ]
 }

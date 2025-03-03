@@ -40,7 +40,7 @@ def process_cv(job_text, cv_text, req_experience, req_experience_unit, positions
         )
         return dict_respuesta
     except Exception as e:
-        return {"error": f"Error en el procesamiento: {str(e)}"}
+        return {"error": f"Processing error: {str(e)}"}
 
 # Parámetros de ejecución:
 job_text = "Generative AI engineer"
