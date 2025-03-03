@@ -1,0 +1,1 @@
+The vacancy title is: {job}. The required experience in months is {req_experience}. The score is {puntuacion}. The relevant experience is: {exp}. Explain why the score was obtained.

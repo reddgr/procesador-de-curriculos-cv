@@ -1,0 +1,88 @@
+www.linkedin.com/in/davidgonzalezromero (LinkedIn)
+talkingtochatbots.com (Personal)
+Top Skills
+Information and CommunicationsTechnology (ICT)
+Data Science
+Artificial Intelligence (AI)
+Languages
+English (Full Professional)
+French (Limited Working)
+Spanish (Native or Bilingual)
+Certifications
+Watson Analytics - Level 1
+Retail Industry Jumpstart
+Data Science Foundations - Level 1
+Generative AI Imaging: WhatCreative Pros Need to Know
+Prompt Engineering: How to Talk tothe AIs
+Honors-Awards
+Desafío Entorno Pre Mercado 2023
+David González Romero
+ICT Engineer | Business Consultant | Licensed Financial ServicesProfessional | Web Publisher | Profile not suggested by AI | 499connections | reddgr
+Greater Madrid Metropolitan Area
+Summary
+I am an Information and Communications Technology Engineer andBusiness Consultant with over 15 years of experience in enterprisesoftware solutions, consulting, business analytics, and data science,across multiple countries and cross-functional teams.Over the last two decades, I have enjoyed the privilege of travelingaround the world, teaming up with outstanding professionals,leading teams, developing business opportunities, and buildingand managing longstanding client relationships. Throughout myconsulting and client relationship management career, I haveprimarily served clients in the retail industry, financial services,telecommunications, and the public sector, developing skills andknowledge across diverse domains such as marketing, finance, riskmanagement, software engineering, and data science.In academia, I completed MSc studies in telecommunications,electrical, and computer engineering, with research in ubiquitouscomputing, the Internet of Things, and computer security. Currently,I'm pursuing a master's degree in Artificial Intelligence Applied toFinancial Markets, and managing Talking to Chatbots, a websitededicated to generative AI projects, popular culture, and education,available at https://talkingtochatbots.com.
+Experience
+Talking to Chatbots, by Reddgr
+Web Publisher and Generative AI Researcher
+October 2006 - Present (18 years 3 months)
+Spain
+Developed and managed personal projects on the Internet since 2006.Currently managing the internet domains https://talkingtochatbots.com(website) and https://reddgr.com (search engine and social media keyword:
+Page 1 of 6
+“reddgr” stands for “David González Romero network”). Talking to Chatbotsis a knowledge hub that compiles LLM prompts and curated conversations,serving as an entertainment and educational platform for AI hobbyists,learners, and professionals.Since 2023, active developer and contributor in open-source and proprietarygenerative AI platforms and communities (reddgr.com/gpts huggingface.com/reddgr)
+Acoustic
+Principal Consultant | Martech SaaS
+June 2020 - May 2023 (3 years)
+Spain
+Advised retail companies on implementing profitable, competitive pricingstrategies and promotions backed by DemandTec software as a service(SaaS) solutions and data science. Primary focus on developing and leadingsuccessful client relationships. Dedicated to continuously improving Acousticproducts and ensuring that clients and prospects receive excellent servicefrom Acoustic’s team and business partners. This involved delivering andmanaging: consultative selling, employee recruitment, training and mentoring,solution implementations, SaaS managed services (data integration andmodeling), technical support, customer relationship management (CRM), andanalytics consulting services.Companies served by the team of consultants and account managers I ledinclude: leading Spanish retailer; Italian supermarket cooperative; multinationalretail company operating in the Middle East, Eastern Europe and Africa;leading Italian retail group; Swedish grocery retailer; online retailer operating inthe UK and Ireland; British retailer with multinational presence; Finland-basedmultinational retail company; leading Norwegian retailer; retail cooperativein the Nordic countries; major multinational retail group operating in SouthAmerica.Participated in or led pre-sales activities (RFI, RFP, POC, RFQ) for variousnational and multinational retailers based in Southern Europe, Central Europe,Nordics, the Middle East and Australia.
+IBM
+7 years 3 months
+Engagement Manager, in support of Acoustic | B2B SaaS Retail Analytics
+Page 2 of 6
+July 2019 - May 2020 (11 months)
+Madrid, Community of Madrid, Spain
+Employed by IBM exclusively in support of Acoustic, new company founded in2019 by a team of IBM Watson Marketing & Commerce software specialists,led by former IBM executives and funded by private equity. Specialist inAcoustic Pricing and Promotion solutions (DemandTec), acting as AcousticSoftware Services team leader in Spain, and as software delivery EngagementManager and Subject Matter Expert for pre-sales and services projectsworldwide. Acoustic clients I worked with include: leading Spanish retailer, supermarketcooperative based in central and southern Italy, multinational retail companyoperating in Middle East, Eastern Europe and Africa, leading Italian retailgroup.
+Engagement Manager | B2B SaaS Retail Analytics
+September 2018 - June 2019 (10 months)
+Madrid, Community of Madrid, Spain
+Managing services projects and SaaS engagements for IBM WatsonCommerce solutions. As cognitive solutions specialist and SME in retail pricingand business analytics, I helped IBM clients succeed by coordinating allcomponents of the IBM Omni-Channel Pricing (DemandTec) cloud-basedsolution, including: solution design and PoC's, solution implementation anddelivery, data science services, data integration services, SaaS operations,technical support, product management, benefits assessments, and analyticalconsulting services.IBM clients I worked with as Engagement Manager or SME include: leadingSpanish retailer, multinational retail company operating in Middle East, EasternEurope and Africa, leading Italian retail group, Italian supermarket cooperative.
+Relationship Manager | Cognitive Solutions SaaS
+January 2015 - August 2018 (3 years 8 months)
+Madrid, Community of Madrid, Spain
+Specialist in the IBM Omni-channel Merchandising (DemandTec) solutionfor the retail industry, including Price Optimization, Promotion Planning andDynamic Pricing software.Managed the day to day relationship with assigned clients (€ 2 million ARR),prospecting and coordinating the delivery of SaaS platform enablementservices (data integration and data science), technical support, project
+Page 3 of 6
+management, and end-user enablement. Collaborated in other internationalprojects as DemandTec and pricing SME, delivering training and projectguidance to client end-users and business partners.IBM clients I worked with include: multiple Merchandising divisions of leadingSpanish retailer, multinational supermarket chain based in Spain, supermarketco-operative based in Denmark, multinational retail company operating inMiddle East, Eastern Europe and Africa, Russian supermarket chain, Finland-based retail company, British consumer co-operative.
+Business Analyst | B2B SaaS Retail Analytics
+March 2013 - December 2014 (1 year 10 months)
+Madrid, Community of Madrid, Spain
+Delivery of IBM Enterprise Marketing Management implementation projects,including DemandTec Price Optimization, Markdown Optimization andAssortment Optimization SaaS solutions. Delivered business and technicalguidance to pricing managers, category managers, buyers and businessconsultants in solution architecture, problem management resolution andchange management. Specialist in performing data analysis on the datascience, optimization and business analytics tools and services included in thesolution.IBM clients I worked with include: leading Spanish retailer, multinationalfashion retailer based in Spain, US-based sports retailer, supermarket co-operative based in Denmark.
+KPMG España
+Senior Consultant | Financial Risk Management
+December 2010 - March 2013 (2 years 4 months)
+Madrid, Community of Madrid, Spain
+Senior Consultant in Financial Risk Management. Main projects:• Corporate and Investment Banking financial reporting: data mining andanalytics for Finance and Business Performance & Analytics department atleading multinational banking and financial services company. Developed andmaintained financial reports and insights for CFO, senior management andfront office.• Retail and Business Banking credit risk modeling: led user acceptancetesting and test case development for credit risk models and EBA-compliantreporting (COREP) of capital requirements. Led UAT development team and
+Page 4 of 6
+acted as a link between IT teams and Risk department. Supported credit riskmodeling team on early implementation of internal ratings-based (IRB) creditrisk models in compliance with Basel Framework on banking supervision.
+MBD Analytics
+Business Intelligence Consultant
+February 2010 - December 2010 (11 months)
+Alcobendas, Community of Madrid, Spain
+Marketing Business Intelligence consulting services. Client-facing consultantfor Competitive Intelligence department at a multinational telecommunicationscompany. Responsible for the development of custom BI reporting solutionsand presenting monthly business reports. The reports included insights,analysis and forecasting of KPIs measuring customer activity and value inconsumer and enterprise telecommunication services.
+Grupo Eneas
+Cost Analyst
+November 2009 - December 2009 (2 months)
+Madrid, Community of Madrid, Spain
+Telecommunications cost optimization project for a regional governmentagency of Spain. Gathered and analyzed invoice and contract data in supportof a Request for Quotation (RFQ) to a selection of telecommunication serviceproviders.
+Deloitte España
+IT Strategy Consultant
+September 2008 - January 2009 (5 months)
+Madrid, Community of Madrid, Spain
+Management consulting intern, collaborating on IT management projects forinsurance, banking and public sector companies and institutions based inSpain. Collaborated on research, documentation, elaboration of proposals andtechnical support for IT management consulting projects, including: IT strategicplanning and market research, IT service management, IT integration, and ITcost optimization.
+Education
+Illinois Institute of Technology
+Research Scholar, Electrical & Computer Engineering · (2009 - 2009)
+Page 5 of 6
+Universidad Politécnica de Madrid
+Master of Science (MSc), Telecommunications Engineer · (2003 - 2009)
+Instituto BME
+Master's degree, Artificial Intelligence Applied to Financial Markets(MIAX) · (October 2023 - May 2025)
+Page 6 of 6

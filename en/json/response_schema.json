@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "properties": {
+        "puntuacion": {
+            "type": "number"
+        },
+        "experiencia": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "empresa": {
+                        "type": "string"
+                    },
+                    "puesto": {
+                        "type": "string"
+                    },
+                    "duracion": {
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "empresa",
+                    "puesto",
+                    "duracion"
+                ]
+            }
+        },
+        "descripcion de la experiencia": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "puntuacion",
+        "experiencia relevante",
+        "descripcion de la experiencia"
+    ]
+}

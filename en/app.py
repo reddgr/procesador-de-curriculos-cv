@@ -8,7 +8,7 @@ from procesador_de_cvs_con_llm import ProcesadorCV
 use_dotenv = True
 if use_dotenv:
     from dotenv import load_dotenv
-    load_dotenv("../../../../../../apis/.env")
+    load_dotenv("../../../../../../../apis/.env")
     api_key = os.getenv("OPENAI_API_KEY")
 
 else:
@@ -20,13 +20,13 @@ print(f"API key: {masked_key}")
 
 def process_cv(job_text, cv_text, req_experience, req_experience_unit, positions_cap, dist_threshold_low, dist_threshold_high):
     if dist_threshold_low >= dist_threshold_high:
-        return {"error": "dist_threshold_low debe ser más bajo que dist_threshold_high."}
+        return {"error": "dist_threshold_low must be lower than dist_threshold_high."}
     
     if not isinstance(cv_text, str) or not cv_text.strip():
-        return {"error": "Por favor, introduce el CV o sube un fichero."}
+        return {"error": "Please provide the CV or upload a file."}
     
     # Convertir la experiencia requerida a meses si se introduce en años
-    if req_experience_unit == "años":
+    if req_experience_unit == "years":
         req_experience = req_experience * 12
 
     try:
@@ -64,7 +64,7 @@ with open('json/response_schema.json', 'r', encoding='utf-8') as f:
 with open('cv_examples/reddgr_cv.txt', 'r', encoding='utf-8') as file:
     cv_example = file.read()
 
-default_parameters = [4, "años", 10, 0.5, 0.7] # Parámetros por defecto para el reinicio de la interfaz y los ejemplos predefinidos 
+default_parameters = [4, "years", 10, 0.5, 0.7] # Parámetros por defecto para el reinicio de la interfaz y los ejemplos predefinidos 
 
 # Código CSS para truncar el texto de ejemplo en la interfaz (bloque "Examples" en la parte de abajo):
 css = """
@@ -84,34 +84,34 @@ css = """
 # Interfaz Gradio:
 with gr.Blocks(css=css) as interface:
     # Inputs
-    job_text_input = gr.Textbox(label="Título oferta de trabajo", lines=1, placeholder="Introduce el título de la oferta de trabajo")
-    gr.Markdown("Experiencia requerida")
+    job_text_input = gr.Textbox(label="Vacancy Title", lines=1, placeholder="Enter the vacancy title")
+    gr.Markdown("Required Experience")
     with gr.Row():
-        req_experience_input = gr.Number(label="Exp. requerida", value=default_parameters[0], precision=0, elem_id="req_exp", show_label=False)
-        req_experience_unit = gr.Dropdown(label="Período", choices=["meses", "años"], value=default_parameters[1], elem_id="req_exp_unit", show_label=False)
-    cv_text_input = gr.Textbox(label="CV en formato texto", lines=5, max_lines=5, placeholder="Introduce el texto del CV")
+        req_experience_input = gr.Number(label="Required Experience", value=default_parameters[0], precision=0, elem_id="req_exp", show_label=False)
+        req_experience_unit = gr.Dropdown(label="Period", choices=["months", "years"], value=default_parameters[1], elem_id="req_exp_unit", show_label=False)
+    cv_text_input = gr.Textbox(label="CV in Text Format", lines=5, max_lines=5, placeholder="Enter the CV text")
     
     # Opciones avanzadas ocultas en un objeto "Accordion"
-    with gr.Accordion("Opciones avanzadas", open=False):
-        positions_cap_input = gr.Number(label="Número máximo de puestos a extraer", value=default_parameters[2], precision=0)
+    with gr.Accordion("Advanced options", open=False):
+        positions_cap_input = gr.Number(label="Maximum number of positions to extract", value=default_parameters[2], precision=0)
         dist_threshold_low_slider = gr.Slider(
-            label="Umbral mínimo de distancia de embeddings (puesto equivalente)", 
+            label="Minimum embedding distance threshold (equivalent position)", 
             minimum=0, maximum=1, value=default_parameters[3], step=0.05
         )
         dist_threshold_high_slider = gr.Slider(
-            label="Umbral máximo de distancia de embeddings (puesto irrelevante)", 
+            label="Maximum embedding distance threshold (irrelevant position)", 
             minimum=0, maximum=1, value=default_parameters[4], step=0.05
         )
     
-    submit_button = gr.Button("Procesar")
-    clear_button = gr.Button("Limpiar")
+    submit_button = gr.Button("Process")
+    clear_button = gr.Button("Clear")
     
-    output_json = gr.JSON(label="Resultado")
+    output_json = gr.JSON(label="Result")
 
     # Ejemplos:
     examples = gr.Examples(
         examples=[
-            ["Cajero de supermercado", "Trabajo de charcutero desde 2021. Antes trabajé 2 meses de camarero en un bar de tapas."] + default_parameters,
+            ["Supermarket cashier", "Deli worker since 2021. Previously worked 2 months as a waiter in a tapas bar."] + default_parameters,
             ["Generative AI Engineer", cv_example] + default_parameters
         ],
         inputs=[job_text_input, cv_text_input, req_experience_input, req_experience_unit, positions_cap_input, dist_threshold_low_slider, dist_threshold_high_slider]
@@ -150,7 +150,7 @@ with gr.Blocks(css=css) as interface:
     # Footer
     gr.Markdown("""
         <footer>
-        <p>Puedes consultar el código completo de esta app y los notebooks explicativos en 
+        <p>You can view the complete code for this app and the explanatory notebooks on 
         <a href='https://github.com/reddgr/procesador-de-curriculos-cv' target='_blank'>GitHub</a></p>
         <p>© 2024 <a href='https://talkingtochatbots.com' target='_blank'>talkingtochatbots.com</a></p>
         </footer>
