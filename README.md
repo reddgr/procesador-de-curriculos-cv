@@ -18,3 +18,5 @@ app.py
 ### English Version
 
 English language user interface and prompts are available in the `en/` directory.
+
+[Gradio Application on Hugging Face Spaces](https://huggingface.co/spaces/reddgr/cv-processing-and-scoring).
