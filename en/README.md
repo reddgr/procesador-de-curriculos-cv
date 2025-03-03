@@ -15,4 +15,4 @@ They contain the step-by-step development process of the app:
 
 app.py
 
-The Gradio application is up and running and can be accessed at the following link: [Gradio Application](https://huggingface.co/spaces/reddgr/procesador-de-cvs-gradio-app).
+The Gradio application is up and running and can be accessed at the following link: [Gradio Application](https://huggingface.co/spaces/reddgr/cv-processing-and-scoring).

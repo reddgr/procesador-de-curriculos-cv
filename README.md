@@ -13,8 +13,10 @@ Contienen el proceso de desarrollo de la app paso a paso:
 
 ## Aplicación Gradio
 
-app.py
+[Aplicación Gradio en Hugging Face Spaces](https://huggingface.co/spaces/reddgr/procesador-de-cvs-gradio-app).
 
 ### English Version
 
 English language user interface and prompts are available in the `en/` directory.
+
+[Gradio Application on Hugging Face Spaces](https://huggingface.co/spaces/reddgr/cv-processing-and-scoring).
