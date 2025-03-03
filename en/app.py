@@ -83,6 +83,15 @@ css = """
 
 # Interfaz Gradio:
 with gr.Blocks(css=css) as interface:
+    gr.Markdown("""
+    Evaluate a CV against a job position using AI. Enter the job title in the 'Vacancy Title' field and paste the CV in plain text in the 'CV in Text Format' box. Specify the desired experience in months or years using the 'Required Experience'. 
+
+    For more control, expand the 'Advanced options' section to adjust the number of positions analyzed and set distance thresholds for relevance evaluation.
+
+    Once all fields are set, click the 'Process' button to analyze the CV. The results will be displayed in a structured JSON format below. You can also reset the inputs using the 'Clear' button.
+
+    At the bottom of the interface, you can find predefined examples to quickly test the app with sample data.
+    """)
     # Inputs
     job_text_input = gr.Textbox(label="Vacancy Title", lines=1, placeholder="Enter the vacancy title")
     gr.Markdown("Required Experience")
