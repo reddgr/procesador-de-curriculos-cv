@@ -5,7 +5,7 @@ import gradio as gr
 sys.path.append('src')
 from procesador_de_cvs_con_llm import ProcesadorCV
 
-use_dotenv = True
+use_dotenv = False
 if use_dotenv:
     from dotenv import load_dotenv
     load_dotenv("../../../../../../../apis/.env")
