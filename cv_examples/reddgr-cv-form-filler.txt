@@ -1,0 +1,104 @@
+La función de este fichero es facilitar la cumplimentación de los formularios de solicitud que requieren la inclusión de texto plano en diferentes cajas.
+
+## 1. Datos generales de la convocatoria
+
+LinkedIn
+
+## 3. Datos personales
+
+González
+Romero
+David
+
+
+Española
+
+Madrid
+España
+
+## 5. Titulación académica
+
+Ingeniero de Telecomunicación
+España
+Universidad Politécnica de Madrid
+18-12-2009
+
+
+Bolsas y Mercados Españoles - Licencia de Operador de Opciones y Futuros
+España
+Instituto Bolsas y Mercados Españoles, S.L.
+19/01/2024
+Bolsa de Madrid: Certificado de Licencia de Operador No Profesional
+España
+19-01-2024
+Google Cloud Generative AI Leader Certification
+España
+04/09/2025
+Google Cloud Digital Leader Certification
+España
+13/11/2025
+
+## 6. Fase de concurso: experiencia profesional
+
+### ESPECIALIDAD (INCLUIR ESTE VALOR EN TODAS LAS EXPERIENCIAS)
+Estudios y Estadísticas
+
+Consultoría TI
+CAPGEMINI ESPAÑA, S.L.
+Líder técnico en IA generativa y arquitecto de IA. Jefe de proyectos en desarrollo de software de experiencia de usuario (UX) y consultoría
+de aplicaciones SaaS con modelos de lenguaje grandes (LLMs) e IA agéntica.
+09/06/2025 - 02/10/2025
+
+Dirección de relaciones con clientes
+ACOUSTIC MARKETING SPAIN, S.L. (SUBROGACIÓN DE IBM)
+Consultor Principal en servicios profesionales y SaaS de DemandTec.
+• Asesoramiento a empresas de comercio minorista en la implementación de estrategias de precios y promociones, respaldadas por
+las soluciones de software como serviciSoa (aS) de DemandTec y su ciencia de datos.
+• Ejecución y gestión de actividades de venta consultiva, selección de personal, capacitación y mentoría, implementación de
+soluciones, servicios gestionados de SaaS (integración y modelado de datos), asistencia técnica a usuarios, gestión de relaciones con
+clientes (CRM) y servicios de consultoría analítica.
+• Principales clientes: empresa líder del comercio minorista español; cooperativa de supermercados italiana; empresa de comercio
+minorista multinacional presente en Oriente Medio, Europa del Este y África; empresa líder del comercio minorista italiano; cadena
+de supermercados sueca; plataforma de comercio electrónico presente en Reino Unido e Irlanda; cadena de tiendas británica con
+presencia multinacional; empresa de comercio minorista multinacional finlandesa; cadena de supermercados noruega líder;
+cooperativa de distribución de los países nórdicos; división sudamericana de multinacional líder en comercio minorista.
+01/06/2020 - 02/05/2023
+
+Gestión de relaciones con clientes
+IBM
+Gestión de implementaciones, relaciones con clientes y asesoramiento experto en soluciones software de Optimización y Analítica de
+Precios.
+• Líder de equipo de implementaciones del SaaS IBM DemandTec Pricing . Responsable de coordinar la prestación de servicios técnicos y
+profesionales por proyectos.
+• Responsable de relaciones con clientes, coordinando gestión de producto SaaS, gestión de proyectos y servicios técnicos.
+• Especialista en soluciones IBM Watson Commerce, prestando servicios a empresas de comercio en 7 países diferentes, liderando
+iniciativas de pre-venta, formación y post-venta. Ponente en conferencias técnicas certificado por IBM.
+• Consultor especializado en proyectos de implementación de las soluciones IBM Watson Customer Engagement para el comercio minorista.
+Asesoramiento técnico y de negocio para gestores de proyecto, compradores, socios comerciales y consultores de implementación en
+arquitectura de soluciones, gestión de incidencias y gestión del cambio. Especialista en análisis de datos en aplicaciones de ciencia de
+datos, optimización y analítica. Elaboración y entrega de análisis financiero sobre implementaciones de optimización de precios.
+06/03/2013 - 31/05/2020
+
+Consultoría de riesgos financieros
+KPMG ASESORES, S.L.
+Consultor senior en gestión de riesgos financieros . Proyectos principales:
+• Informes financieros de banca corporativa y de inversión: extracción de datos y análisis para el departamento de planificación, análisis
+y control financiero de una empresa multinacional de banca y servicios financieros. Desarrollo y mantenimiento de informes financieros
+y asesoramiento interno para el director financiero, la alta dirección y las oficinas bancarias.
+• Modelado de riesgo de crédito para banca comercial y minorista: gestión de pruebas de aceptación de usuario (UAT), desarrollo de
+casos de prueba para modelos de riesgo de crédito y presentación de informes de requisitos de capital (COREP) en el marco de la
+Autoridad Bancaria Europea (EBA). Liderazgo del equipo de desarrollo de UAT, con rol de enlace entre los departamentos de TI y Riesgos.
+Apoyo al equipo de modelado de riesgo crediticio en la implementación de modelos de riesgo basados en calificaciones internas (IRB) de
+conformidad con el marco de Basilea sobre supervisión bancaria.
+07/12/2010 - 05/03/2013
+
+Consultoría de Business Intelligence
+MARKETING Y BASES DE DATOS CONSULTORES, S.L. (MBD ANALYTICS)
+Consultoría en inteligencia empresarial (business intelligence) para departamentos de marketing. Consultor para el departamento de
+inteligencia competitiva de una multinacional de telecomunicaciones. Desarrollo de soluciones e informes de BI (business intelligence) y
+presentación de informes mensuales de inteligencia competitiva. Analítica descriptiva y prescriptiva sobre indicadores de negocio (KPIs)
+de actividad y valor de cliente en servicios de telecomunicaciones empresariales y minoristas.
+03/02/2010 - 03/12/2010
+
+## Firma
+Madrid
