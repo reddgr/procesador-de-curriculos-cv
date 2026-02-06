@@ -17,6 +17,6 @@ Contienen el proceso de desarrollo de la app paso a paso:
 
 ### English Version
 
-English language user interface and prompts are available in the `en/` directory.
+English language user interface and prompts are available in the [`en/`](https://github.com/reddgr/procesador-de-curriculos-cv/tree/main/en) directory.
 
 [Gradio Application on Hugging Face Spaces](https://huggingface.co/spaces/reddgr/cv-processing-and-scoring).
